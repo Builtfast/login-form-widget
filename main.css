@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #bbc1ec;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: 1px solid red;
+}
+
+.container .loginbox{
+    display: flex;
+    background-color: #ffffff;
+    height: 80%;
+    width: 80%;
+    padding: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container .leftside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+    margin: 0;
+}
+
+.rightside .avatar{
+    background-image: url("default-avatar-rapper-guy.png");
+    background-size: 100% 100%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.container .rightside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:30%;
+    height: 100%;
+    margin: 0;
+    background-color: #ffd500;
+}
+
+.leftside .fields{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.fields label{
+    font-weight: bold;
+}
+
+.fields input{
+    padding: 10px 0px;
+    border: none;
+}
+
+.leftside button{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+}
+
+.leftside button:hover{
+    background-color: #64dfc8;
+    cursor: pointer;
+}
+
+.leftside .links{
+    margin-top: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+}
+
+.links a:hover{
+    border-bottom: 1px solid black;
+}
